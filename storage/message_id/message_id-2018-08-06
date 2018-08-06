@@ -1,0 +1,252 @@
+[2018-08-06 09:21:39] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U11808060921390QJnMr"} 
+[2018-08-06 09:24:24] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806092424Tsc5Au"} 
+[2018-08-06 09:24:52] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806092452Gy6o4K"} 
+[2018-08-06 09:28:27] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806092827weXnRE"} 
+[2018-08-06 09:28:34] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806092834KDVUf9"} 
+[2018-08-06 09:30:14] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U11808060930149JI4EX"} 
+[2018-08-06 09:46:32] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806094632Sv8lBx"} 
+[2018-08-06 09:46:34] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806094634mOFsPW"} 
+[2018-08-06 09:46:35] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806094635wmHr6E"} 
+[2018-08-06 09:46:45] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U11808060946456xabP2"} 
+[2018-08-06 09:52:45] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U11808060952455hsUqT"} 
+[2018-08-06 09:52:47] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806095247GfQEkF"} 
+[2018-08-06 09:52:54] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806095254QRIKEb"} 
+[2018-08-06 10:08:34] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806100834mIwgRH"} 
+[2018-08-06 10:19:20] development.INFO: message_id: {"api":"/api/member/create","id":"1234","message_id":"U2180806101920ODuioY"} 
+[2018-08-06 10:19:20] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806101920rnZBxI"} 
+[2018-08-06 10:19:20] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806101920rnZBxI"} 
+[2018-08-06 10:22:35] development.INFO: message_id: {"api":"/api/member/create","id":"1234","message_id":"U21808061022354UoMV6"} 
+[2018-08-06 10:22:35] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806102235sQaK2l"} 
+[2018-08-06 10:22:35] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806102235sQaK2l"} 
+[2018-08-06 10:22:48] development.INFO: message_id: {"api":"/api/member/create","id":"1234","message_id":"U2180806102248DidoI1"} 
+[2018-08-06 10:22:48] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806102248TFNO3p"} 
+[2018-08-06 10:22:48] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806102248TFNO3p"} 
+[2018-08-06 10:22:49] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102249dWZViY"} 
+[2018-08-06 10:22:49] development.ERROR: Undefined index: point {"exception":"[object] (ErrorException(code: 0): Undefined index: point at /Users/eddie_lee/Dev/bbin/app/Http/Controllers/LoginController.php:133)
+[stacktrace]
+#0 /Users/eddie_lee/Dev/bbin/app/Http/Controllers/LoginController.php(133): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', '/Users/eddie_le...', 133, Array)
+#1 [internal function]: App\\Http\\Controllers\\LoginController->platform()
+#2 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#3 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('platform', Array)
+#4 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\LoginController), 'platform')
+#5 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\\Routing\\Route->runController()
+#6 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Route->run()
+#7 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 /Users/eddie_lee/Dev/bbin/app/Http/Middleware/CheckLogin.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\CheckLogin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(67): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /Users/eddie_lee/Dev/bbin/vendor/fideloper/proxy/src/TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#53 /Users/eddie_lee/Dev/bbin/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#54 /Users/eddie_lee/Dev/bbin/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#55 {main}
+"} 
+[2018-08-06 10:24:00] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102400Fdoyas"} 
+[2018-08-06 10:26:53] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102653YA3Ve8"} 
+[2018-08-06 10:27:02] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806102702AZHW5N"} 
+[2018-08-06 10:27:02] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P21808061027028UH4Cz"} 
+[2018-08-06 10:27:02] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P21808061027028UH4Cz"} 
+[2018-08-06 10:27:02] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102702vLxqC2"} 
+[2018-08-06 10:27:02] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102702vLxqC2"} 
+[2018-08-06 10:27:02] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102702vLxqC2"} 
+[2018-08-06 10:27:02] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102702WI9M53"} 
+[2018-08-06 10:27:11] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806102711Ot9dEL"} 
+[2018-08-06 10:27:11] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P218080610271186T3tk"} 
+[2018-08-06 10:27:11] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P218080610271186T3tk"} 
+[2018-08-06 10:27:11] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061027115m0LWr"} 
+[2018-08-06 10:27:11] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061027115m0LWr"} 
+[2018-08-06 10:27:11] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061027115m0LWr"} 
+[2018-08-06 10:27:12] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061027124yHjux"} 
+[2018-08-06 10:27:20] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806102720rWuYV1"} 
+[2018-08-06 10:27:20] development.INFO: message_id: {"api":"/api/point/withdrawal","id":"1234","message_id":"P31808061027207RmTZq"} 
+[2018-08-06 10:27:20] development.INFO: message_id: {"api":"/api/point/withdrawal","id":"1234","message_id":"P31808061027207RmTZq"} 
+[2018-08-06 10:27:20] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102720QkiCvS"} 
+[2018-08-06 10:27:20] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102720QkiCvS"} 
+[2018-08-06 10:27:20] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806102720QkiCvS"} 
+[2018-08-06 10:27:21] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R218080610272130TpbY"} 
+[2018-08-06 10:43:06] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806104306dXGaLl"} 
+[2018-08-06 10:43:06] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806104306m12MCe"} 
+[2018-08-06 10:43:06] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806104306m12MCe"} 
+[2018-08-06 10:43:06] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806104306TZs1pS"} 
+[2018-08-06 10:43:06] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806104306TZs1pS"} 
+[2018-08-06 10:43:06] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806104306TZs1pS"} 
+[2018-08-06 10:43:06] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806104306k5rBEQ"} 
+[2018-08-06 10:48:54] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P11808061048544cQ1bq"} 
+[2018-08-06 10:48:54] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R218080610485452tU9d"} 
+[2018-08-06 10:48:54] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R218080610485452tU9d"} 
+[2018-08-06 10:48:54] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061048544zAD06"} 
+[2018-08-06 10:51:38] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P11808061051388Oayi0"} 
+[2018-08-06 10:51:38] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806105138gimSQb"} 
+[2018-08-06 10:51:38] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806105138gimSQb"} 
+[2018-08-06 10:51:38] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806105138z5dsau"} 
+[2018-08-06 10:51:38] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806105138z5dsau"} 
+[2018-08-06 10:51:38] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806105138z5dsau"} 
+[2018-08-06 10:51:38] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806105138p7wj6D"} 
+[2018-08-06 10:54:42] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806105442agWyet"} 
+[2018-08-06 10:58:26] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806105826t4XTP8"} 
+[2018-08-06 10:59:23] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806105923QSm39W"} 
+[2018-08-06 11:02:47] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806110247Kvz854"} 
+[2018-08-06 11:02:47] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806110247lgNsAv"} 
+[2018-08-06 11:02:54] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806110254mBTxu1"} 
+[2018-08-06 11:12:47] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111247AZzYBs"} 
+[2018-08-06 11:12:49] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806111249XZfLMF"} 
+[2018-08-06 11:12:54] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111254JXO0U3"} 
+[2018-08-06 11:12:55] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806111255KLE26J"} 
+[2018-08-06 11:13:00] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111300D84fec"} 
+[2018-08-06 11:13:02] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806111302noRBYh"} 
+[2018-08-06 11:13:05] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111305Ln3NZd"} 
+[2018-08-06 11:13:07] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806111307PzpxGA"} 
+[2018-08-06 11:13:13] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111313ouzaqI"} 
+[2018-08-06 11:13:15] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061113159UmJzl"} 
+[2018-08-06 11:13:20] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111320GX4WQf"} 
+[2018-08-06 11:13:21] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806111321uNDGc6"} 
+[2018-08-06 11:13:25] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111325OnP4AZ"} 
+[2018-08-06 11:13:26] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061113268dqsJP"} 
+[2018-08-06 11:14:38] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061114387905VB"} 
+[2018-08-06 11:14:45] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111445cQZLPO"} 
+[2018-08-06 11:14:46] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806111446TVq5kM"} 
+[2018-08-06 11:14:48] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111448FcbarV"} 
+[2018-08-06 11:14:50] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806111450RqpL9P"} 
+[2018-08-06 11:14:56] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806111456ojfRkP"} 
+[2018-08-06 11:20:35] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112035nvymNf"} 
+[2018-08-06 11:20:39] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112039gxyC5D"} 
+[2018-08-06 11:20:40] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112040hbOgL6"} 
+[2018-08-06 11:20:50] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112050ndtFWM"} 
+[2018-08-06 11:22:22] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112222krWP5S"} 
+[2018-08-06 11:22:24] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112224iYDSuI"} 
+[2018-08-06 11:22:25] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112225LDdbEl"} 
+[2018-08-06 11:22:29] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112229IAC1Fv"} 
+[2018-08-06 11:22:33] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112233vVNDnF"} 
+[2018-08-06 11:22:38] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P11808061122389JxHQ0"} 
+[2018-08-06 11:22:41] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112241sf5l0e"} 
+[2018-08-06 11:22:51] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112251b4eAd5"} 
+[2018-08-06 11:22:52] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112252JTCbe2"} 
+[2018-08-06 11:22:56] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112256bhMv7L"} 
+[2018-08-06 11:22:58] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112258SrHK54"} 
+[2018-08-06 11:23:03] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112303t32yH7"} 
+[2018-08-06 11:23:04] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112304zmlQGo"} 
+[2018-08-06 11:23:20] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112320NHJZy4"} 
+[2018-08-06 11:23:23] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112323dGBRsz"} 
+[2018-08-06 11:23:46] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112346qn25O1"} 
+[2018-08-06 11:23:48] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112348yMj1V0"} 
+[2018-08-06 11:25:30] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112530n5kBud"} 
+[2018-08-06 11:25:32] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112532WQIdiC"} 
+[2018-08-06 11:25:45] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112545PMTUok"} 
+[2018-08-06 11:25:46] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112546ETH7qt"} 
+[2018-08-06 11:25:50] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112550AJLeVg"} 
+[2018-08-06 11:25:51] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061125515bT9Bl"} 
+[2018-08-06 11:28:41] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112841h7vMjX"} 
+[2018-08-06 11:28:45] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112845LTi23G"} 
+[2018-08-06 11:28:46] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112846DCQTtG"} 
+[2018-08-06 11:28:52] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112852BZdrIN"} 
+[2018-08-06 11:28:53] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112853X8Ws6R"} 
+[2018-08-06 11:28:58] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112858Ird7OD"} 
+[2018-08-06 11:28:59] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112859A3y6VR"} 
+[2018-08-06 11:29:16] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112916wZp2fj"} 
+[2018-08-06 11:29:17] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R218080611291740I6XN"} 
+[2018-08-06 11:29:19] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806112919DYVTtf"} 
+[2018-08-06 11:29:20] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806112920digcxD"} 
+[2018-08-06 11:30:00] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113000y3KNeI"} 
+[2018-08-06 11:30:01] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113001iR10AI"} 
+[2018-08-06 11:30:03] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061130035ZpBR7"} 
+[2018-08-06 11:30:07] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P11808061130072cUkPK"} 
+[2018-08-06 11:30:08] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113008FkbTwo"} 
+[2018-08-06 11:30:11] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113011ANkEqT"} 
+[2018-08-06 11:30:12] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113012pM0k7q"} 
+[2018-08-06 11:30:17] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113017J26wnN"} 
+[2018-08-06 11:30:18] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113018qcfy7a"} 
+[2018-08-06 11:30:21] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113021JsYP5h"} 
+[2018-08-06 11:30:22] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113022NpYKq9"} 
+[2018-08-06 11:30:33] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113033fIdZVO"} 
+[2018-08-06 11:30:35] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P11808061130354BO5Fz"} 
+[2018-08-06 11:30:37] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113037bHkhrn"} 
+[2018-08-06 11:33:55] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113355JIu4Ow"} 
+[2018-08-06 11:33:56] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113356BcJry4"} 
+[2018-08-06 11:33:59] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113359GqzyBD"} 
+[2018-08-06 11:34:00] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113400iJEW1c"} 
+[2018-08-06 11:34:04] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113404QsEG7L"} 
+[2018-08-06 11:34:05] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113405oQRgKM"} 
+[2018-08-06 11:34:22] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P118080611342287CDXM"} 
+[2018-08-06 11:34:23] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061134230p35Tc"} 
+[2018-08-06 11:34:28] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113428n5U7A4"} 
+[2018-08-06 11:34:29] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113429W4iXm3"} 
+[2018-08-06 11:38:57] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113857l2yUOF"} 
+[2018-08-06 11:39:02] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113902eMyRHD"} 
+[2018-08-06 11:39:03] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113903b4DcyH"} 
+[2018-08-06 11:39:07] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113907RhuZM8"} 
+[2018-08-06 11:39:08] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113908Sn7zua"} 
+[2018-08-06 11:39:37] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806113937FtQnjR"} 
+[2018-08-06 11:39:41] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806113941i0T7tk"} 
+[2018-08-06 11:39:42] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R218080611394226P8Eh"} 
+[2018-08-06 11:41:19] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806114119F2tq3n"} 
+[2018-08-06 11:41:19] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114119sKAMCz"} 
+[2018-08-06 11:41:19] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114119sKAMCz"} 
+[2018-08-06 11:41:19] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114119hj2nK4"} 
+[2018-08-06 11:42:13] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806114213mKjdOs"} 
+[2018-08-06 11:42:13] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114213S1vWfU"} 
+[2018-08-06 11:42:13] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114213S1vWfU"} 
+[2018-08-06 11:42:13] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114213Pi5Ya1"} 
+[2018-08-06 11:42:51] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806114251gVx8r3"} 
+[2018-08-06 11:42:51] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114251QP3Hgs"} 
+[2018-08-06 11:42:51] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114251QP3Hgs"} 
+[2018-08-06 11:42:51] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114251Tn6uge"} 
+[2018-08-06 11:43:00] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806114300m7xTwA"} 
+[2018-08-06 11:43:00] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114300MmB7if"} 
+[2018-08-06 11:43:00] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P2180806114300MmB7if"} 
+[2018-08-06 11:43:01] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114301wPrLn6"} 
+[2018-08-06 11:43:24] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806114324dc1GeJ"} 
+[2018-08-06 11:43:24] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P21808061143243ConyZ"} 
+[2018-08-06 11:43:24] development.INFO: message_id: {"api":"/api/point/deposit","id":"1234","message_id":"P21808061143243ConyZ"} 
+[2018-08-06 11:43:27] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114327ksRIeh"} 
+[2018-08-06 11:44:39] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806114439fsnXiS"} 
+[2018-08-06 11:44:39] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114439J6Gf0Y"} 
+[2018-08-06 11:44:39] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114439J6Gf0Y"} 
+[2018-08-06 11:44:39] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114439ecrP8k"} 
+[2018-08-06 11:49:42] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114942zjFh5d"} 
+[2018-08-06 11:49:50] development.INFO: message_id: {"api":"/api/point/prepare","id":"1234","message_id":"P1180806114950tAQSRp"} 
+[2018-08-06 11:49:50] development.INFO: message_id: {"api":"/api/point/withdrawal","id":"1234","message_id":"P3180806114950iFgmfl"} 
+[2018-08-06 11:49:50] development.INFO: message_id: {"api":"/api/point/withdrawal","id":"1234","message_id":"P3180806114950iFgmfl"} 
+[2018-08-06 11:49:50] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806114950VyYkvH"} 
+[2018-08-06 12:01:31] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R2180806120131e2OAvW"} 
+[2018-08-06 12:02:03] development.INFO: message_id: {"api":"api/login","id":"1234","message_id":"U1180806120203aBwIRo"} 
+[2018-08-06 12:02:03] development.INFO: message_id: {"api":"/api/members/balance","id":"1234","message_id":"R21808061202035YjrPb"} 
